@@ -53,7 +53,7 @@ public:
 };
 
 int main() {
-	program 5;
+	program s;
 
 	while (true) {
 		cout << endl;
@@ -63,5 +63,13 @@ int main() {
 		cout << "3. Display\n";
 		cout << "4. Exit\n";
 		cout << "\nEnter your Choice : ";
+		string input;
+		getline(cin, input);
+		char ch = (input.empty() ? '0' : input[0]);
+		switch (ch) {
+		case '1': {
+
+		}
+		}
 	}
 }
