@@ -29,7 +29,7 @@ public:
 	void pop() {
 		if (empty()) {
 			cout << "\nStack is Empty. cannot pop." << endl;
-			return;
+			return; 
 		}
 
 		cout << "\nThe popped element is: " << stack_array[top] << endl;
